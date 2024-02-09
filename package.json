@@ -1,0 +1,42 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@babel/preset-env": "^7.22.9",
+        "axios": "^1.5.1",
+        "laravel-mix": "^6.0.49",
+        "vue-loader": "^16.8.3"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.4.0",
+        "@stripe/stripe-js": "^2.1.11",
+        "@vee-validate/rules": "^4.5.8",
+        "@vitejs/plugin-vue": "^4.2.3",
+        "@vue-stripe/vue-stripe": "^4.5.0",
+        "bootstrap-vue": "^2.23.1",
+        "chart.js": "^4.4.1",
+        "datatables.net": "^1.13.8",
+        "datatables.net-bs4": "^1.13.8",
+        "dotenv-webpack": "^8.0.1",
+        "html2pdf.js": "^0.10.1",
+        "jquery": "^3.7.1",
+        "select2-bootstrap-5-theme": "^1.3.0",
+        "vee-validate": "^4.5.8",
+        "vue": "^3.2.36",
+        "vue-html2pdf": "^1.8.0",
+        "vue-router": "^4.2.4",
+        "vue-toastification": "^2.0.0-rc.5",
+        "vue-youtube-embed": "^2.2.2",
+        "vue-youtube-iframe-api": "^0.1.2",
+        "vue3-select2-component": "^0.1.7"
+    }
+}
